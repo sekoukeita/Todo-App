@@ -12,7 +12,8 @@
 
 */
 
-let domain = "http://localhost:9000";
+let domain = ""; /* make the domain a relative path by replacing http://localhost:9000 by an empty string
+                    because the file is running from the root level*/
 
 window.addEventListener("load", () => {
     populateTodos();
