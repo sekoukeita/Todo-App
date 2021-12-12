@@ -1,0 +1,10 @@
+2021-11-22 23:32:53 ERROR ToDoDaoImpl:46 - org.postgresql.util.PSQLException: ERROR: relation "tod" does not exist
+  Position: 15
+2021-11-23 18:09:32 ERROR ToDoDaoImpl:110 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" not found; SQL statement:
+INSERT INTO todos VALUES (DEFAULT, ?, ?); [42102-200]
+2021-11-23 18:09:32 ERROR ToDoDaoImpl:110 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" not found; SQL statement:
+INSERT INTO todos VALUES (DEFAULT, ?, ?); [42102-200]
+2021-11-23 18:09:32 ERROR ToDoDaoImpl:110 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" not found; SQL statement:
+INSERT INTO todos VALUES (DEFAULT, ?, ?); [42102-200]
+2021-11-23 18:09:32 ERROR ToDoDaoImpl:58 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOS" not found; SQL statement:
+SELECT * FROM todos; [42102-200]

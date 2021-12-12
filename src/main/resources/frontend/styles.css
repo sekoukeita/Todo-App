@@ -1,0 +1,30 @@
+.todo-item{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.todo-info{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.green{
+    color: rgb(56, 207, 56);
+}
+
+.red{
+    color: red;
+}
+
+#task-input{
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+   
+}
